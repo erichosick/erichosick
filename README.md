@@ -2,8 +2,7 @@
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+    A[SQL]-->B{Is it Amazing?};
+    B -- Yes -->C[Yes! Yes it is];
+    B -- No --> D[We should talk.];
 ```
